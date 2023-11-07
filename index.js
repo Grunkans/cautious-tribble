@@ -6,11 +6,11 @@ while (input < 7) {
   console.log();
   console.log("Huvudmeny. Välj ett alternativ:");
   console.log("1. Figur 1");
-  console.log("1. Figur 2");
-  console.log("1. Figur 3");
-  console.log("1. Figur 4");
-  console.log("1. Figur 5");
-  console.log("1. Figur 6");
+  console.log("2. Figur 2");
+  console.log("3. Figur 3");
+  console.log("4. Figur 4");
+  console.log("5. Figur 5");
+  console.log("6. Figur 6");
   console.log("Q. Avsluta");
   input = await question("> ");
   input = input.toLowerCase();
